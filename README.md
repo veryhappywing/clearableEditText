@@ -1,5 +1,5 @@
 # ClearableEditText
-A Clearable EditText for android, can customize the clear button icon and size.
+A Clearable EditText for android, can customize the clear button icon and size.<br>
 自带删除功能的EditText. 支持自定义删除按钮图片和大小。
 
 ## 简介
