@@ -1,0 +1,7 @@
+<resources>
+    <declare-styleable name="ClearableEditTextIcon">
+        <attr name="clearButtonIcon" format="integer"/>
+        <attr name="clearButtonIconWidth" format="dimension"/>
+        <attr name="clearButtonIconHeight" format="dimension"/>
+    </declare-styleable>
+</resources>
