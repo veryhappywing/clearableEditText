@@ -21,10 +21,14 @@ public class ClearableEditText extends AppCompatEditText {
     private int mClearButtonIconWidth = 0;
     private int mClearButtonIconHeight = 0;
 
+    //这个构造函数，用代码new的时候调用，attrs传了null,会使用默认的参数,拿不到xml里定义的参数
+    //e.g. ClearableEditText clearableEditText = new ClearableEditText(this)。
     public ClearableEditText(Context context) {
-        super(context);
+        this(context,null);
     }
 
+    //这个构造函数在使用定义在xml中的ClearableEditText时会被调用.
+    //e.g. findViewById(R.id.MyEditText)
     public ClearableEditText(Context context, AttributeSet attrs) {
         super(context, attrs);
         //获取图片自定义属性
