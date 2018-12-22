@@ -10,13 +10,14 @@ A Clearable EditText for android, can custom the clear button icon and  size
 
 ## 效果：
 ![](screen1.png)
+
 ![](screen2.png)
 
 
 ## 用法
 ### Step1： 
 
-添加"xmlns:app="http://schemas.android.com/apk/res-auto"
+添`"xmlns:app="http://schemas.android.com/apk/res-auto"`
 
 
         <LinearLayout
