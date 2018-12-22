@@ -7,8 +7,14 @@ A Clearable EditText for android, can custom the clear button icon and  size
 
 希望帮助有需要的人节省点时间。觉得好用的点个赞 ^_^。
 
+
+## 效果：
+![](screen1.png)
+![](screen2.png)
+
+
 ## 用法
-###Step1： 
+### Step1： 
 
 添加"xmlns:app="http://schemas.android.com/apk/res-auto"
 
@@ -20,15 +26,11 @@ A Clearable EditText for android, can custom the clear button icon and  size
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-###Step2：
-
-设置自定义属性：
-
-**clearButtonIcon:** 显示图标
-
-**clearButtonIconWidth:** 显示图标宽度
-
-**clearButtonIconHeight:** 显示图标高度
+### Step2：
+设置自定义属性：<br>\
+**clearButtonIcon:** 显示图标<br>
+**clearButtonIconWidth:** 显示图标宽度 <br>
+**clearButtonIconHeight:** 显示图标高度 <br>
 
         <com.myf.wing.clearableedittext.ClearableEditText
             android:layout_width="match_parent"
@@ -40,7 +42,4 @@ A Clearable EditText for android, can custom the clear button icon and  size
             app:clearButtonIconHeight="20dp"
             android:textSize="15sp"/>
 
-##效果：
-![]screen1.png)
-![]screen2.png)
 
